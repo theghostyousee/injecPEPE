@@ -47,7 +47,7 @@ body::before {
 
 img{
     cursor: pointer;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 @media screen and (max-width:420px) {
