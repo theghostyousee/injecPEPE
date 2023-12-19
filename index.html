@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepe Injective</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" />
+
+
+</head>
+<body>
+    <img src="logo.png" id="proofButton">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const proofButton = document.getElementById('proofButton');
+            const Telegram = document.getElementById('tg');
+        
+            proofButton.addEventListener('click', function() {
+                tweetIQ();
+            });
+        
+            Telegram.addEventListener('click', function() {
+                window.open("https://t.me/BurnAvax", + "_blank")
+            });
+        
+        });
+        
+        function tweetIQ() {
+            var text = `I'm burning my identity for @BurnAvax 🔥`;
+            window.open("https://twitter.com/intent/tweet?&text=\n" + text, "_blank");
+        }        
+    </script>
+</body>
+</html>
